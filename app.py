@@ -56,7 +56,7 @@ def load_models():
 whisper_model, nlp = load_models()
 
 # ---------------------- FFMPEG PATH ----------------------
-FFMPEG_PATH = r"C:\ffmpeg\bin\ffmpeg.exe"
+FFMPEG_PATH = "ffmpeg"
 
 # ---------------------- FUNCTIONS ----------------------
 def extract_audio(file_path, output_path="temp_audio.wav"):
